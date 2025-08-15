@@ -6,67 +6,80 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "pergunta deve ser escrita aqui",
+        enunciado: "O que mais te motiva?"
         alternativas: [
             {
-                texto: "alternativa letra A deve ser escrita aqui",
-                afirmacao: "Afirmação gerada se a pessoa escolher a letra A deve estar aqui "
+                texto: "Criar coisas físicas e visíveis" ,
+                afirmacao: "Tenho prazer em projetar e construir soluções tangíveis"
             },
             {
-                texto: "alternativa letra B deve ser escrita aqui",
-                afirmacao: "Afirmação gerada se a pessoa escolher a letra B deve estar aqui "
+                texto: " Resolver problemas usando informações e tecnologia",
+                afirmacao: "Adoro transformar dados e ideias em soluções inteligentes"
             }
         ]
     },
     {
-        enunciado: "",
+        enunciado: "Se tivesse que escolher um projeto para liderar:",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Construir algo inovador para melhorar a vida das pessoas.",
+                afirmacao: "Busco sempre inovar em soluções que ajudem diretamente as pessoas"
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Desenvolver um sistema que automatize tarefas complexas.",
+                afirmacao: "Gosto de criar sistemas que simplificam o trabalho humano"
             }
         ]
     },
     {
-        enunciado: "",
+        enunciado: "O que te deixa mais animado?",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Criar coisas que interajam com o mundo físico.",
+                afirmacao: "Gosto de ver minhas criações funcionando no mundo real"
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Desenvolver soluções que funcionem online ou em redes digitais",
+                afirmacao: "Prefiro criar soluções que vivem no mundo digital"
             }
         ]
     },
     {
-        enunciado: "",
+        enunciado: "Quando pensa no futuro, você imagina",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Máquinas e estruturas mais inteligentes",
+                afirmacao: "Acredito que a tecnologia física pode transformar o mundo"
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Sistemas digitais cada vez mais autônomos",
+                afirmacao: "Vejo o futuro dominado pela automação e inteligência artificial"
             }
         ]
     },
     {
-        enunciado: "",
+        enunciado: "Você prefere trabalhar com:",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "projetos grandes e estruturais",
+                afirmacao: "Tenho paciência e visão para projetos de grande escala"
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Soluções rápidas e adaptáveis",
+                afirmacao: "ou ágil e gosto de adaptar soluções para diferentes contextos"
+            }
+        ]
+    },
+        {
+        enunciado: "Se fosse aprender algo novo hoje",
+        alternativas: [
+            {
+                texto: "Construção de robôs, prédios ou veículos",
+                afirmacao: "Tenho interesse por engenharia e mecânica"
+            },
+            {
+                texto: "Programação avançada e análise de dados",
+                afirmacao: "Gosto de entender e criar através da programação"
             }
         ]
     },
